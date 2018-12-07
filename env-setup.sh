@@ -24,3 +24,4 @@ nvm install stable
 npm i -g nodemon
 npm i -g create-react-app
 npm i -g yarn
+npm i -g netlify-cli
