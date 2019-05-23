@@ -1,0 +1,23 @@
+{
+  "workbench.colorTheme": "Solarized Dark",
+  "workbench.fontSize": 15,
+  "editor.wordWrap": "on",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "gitlens.defaultDateStyle": "absolute",
+  "window.zoomLevel": 0,
+  "editor.formatOnSave": true,
+  // turn off for JS
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[html]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "python.formatting.provider": "autopep8",
+  "terminal.integrated.rendererType": "dom",
+  "python.linting.pylintArgs": ["--load-plugins=pylint_django"]
+}
