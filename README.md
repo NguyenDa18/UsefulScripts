@@ -2,8 +2,9 @@
 
 ![alt text](cartoon-chef.png "Chef")
 
+- Currently have VSCode setup scripts (extensions and settings I use)
 - Currently have dev environment setup script
-- Currently have VSCode setup script
+
 
 ## Planned
 
