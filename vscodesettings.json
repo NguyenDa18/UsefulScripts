@@ -1,6 +1,6 @@
 {
   "workbench.colorTheme": "Solarized Dark",
-  "workbench.fontSize": 15,
+  "workbench.fontSize": 50,
   "editor.wordWrap": "on",
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
@@ -8,8 +8,18 @@
   "gitlens.defaultDateStyle": "absolute",
   "window.zoomLevel": 0,
   "editor.formatOnSave": true,
-  // turn off for JS
-  "[javascript]": {
+  "[clojure]": {
+    "editor.wordSeparators": "\t ()\"':,;~@#$%^&{}[]`",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.formatOnType": true,
+    "editor.autoIndent": true,
+    "editor.formatOnPaste": true,
+    "files.trimTrailingWhitespace": false,
+    "editor.matchBrackets": false,
+    "editor.formatOnSave": false
+  },
+  "[clojurescript]": {
     "editor.formatOnSave": false
   },
   "[html]": {
@@ -19,5 +29,8 @@
   "eslint.alwaysShowStatus": true,
   "python.formatting.provider": "autopep8",
   "terminal.integrated.rendererType": "dom",
-  "python.linting.pylintArgs": ["--load-plugins=pylint_django"]
+  "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
+  "terminal.integrated.shell.windows": "<MY_PATH_ON_WINDOWS_MACHINE>\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
+  "editor.fontSize": 18,
+  "editor.minimap.enabled": false
 }
