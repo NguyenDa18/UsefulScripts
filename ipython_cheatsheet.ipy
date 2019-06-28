@@ -1,0 +1,8 @@
+ # Make random choice
+!python3 -e "from random import choices;choices = ['1', '2', '3', '4', '5'];print(choices(choices))"
+
+# How many csv files are in dir
+len("*.csv")
+
+# Sum all file sizes
+!ls -l | awk '{SUM+=$5} END {print SUM}'
