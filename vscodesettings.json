@@ -1,6 +1,6 @@
 {
   "workbench.colorTheme": "Solarized Dark",
-  "workbench.fontSize": 50,
+  "workbench.fontSize": 40,
   "editor.wordWrap": "on",
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
@@ -17,7 +17,6 @@
     "editor.formatOnPaste": true,
     "files.trimTrailingWhitespace": false,
     "editor.matchBrackets": false,
-    "editor.formatOnSave": false
   },
   "[clojurescript]": {
     "editor.formatOnSave": false
@@ -29,8 +28,9 @@
   "eslint.alwaysShowStatus": true,
   "python.formatting.provider": "autopep8",
   "terminal.integrated.rendererType": "dom",
-  "python.linting.pylintArgs": ["--load-plugins=pylint_django"],
-  "terminal.integrated.shell.windows": "<MY_PATH_ON_WINDOWS_MACHINE>\\AppData\\Local\\Programs\\Git\\bin\\bash.exe",
+  "python.linting.pylintArgs": [
+    "--load-plugins=pylint_django"
+  ],
   "editor.fontSize": 18,
   "editor.minimap.enabled": false
 }
