@@ -1,13 +1,20 @@
 {
   "workbench.colorTheme": "Solarized Dark",
-  "workbench.fontSize": 40,
   "editor.wordWrap": "on",
   "gitlens.advanced.messages": {
     "suppressShowKeyBindingsNotice": true
   },
   "gitlens.defaultDateStyle": "absolute",
   "window.zoomLevel": 0,
-  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true,
+  },
+  "[json]":{
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.formatOnSave": false
+  },
   "[clojure]": {
     "editor.wordSeparators": "\t ()\"':,;~@#$%^&{}[]`",
     "editor.autoClosingBrackets": "always",
@@ -16,10 +23,7 @@
     "editor.autoIndent": true,
     "editor.formatOnPaste": true,
     "files.trimTrailingWhitespace": false,
-    "editor.matchBrackets": false,
-  },
-  "[clojurescript]": {
-    "editor.formatOnSave": false
+    "editor.matchBrackets": false
   },
   "[html]": {
     "editor.formatOnSave": false
@@ -32,5 +36,5 @@
     "--load-plugins=pylint_django"
   ],
   "editor.fontSize": 18,
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
 }
