@@ -1,0 +1,16 @@
+[http]
+	sslVerify = false
+[user]
+	name = Danh Nguyen
+	email = danh.nguyen@example.com
+[push]
+	default = current
+[core]
+	autocrlf = false
+[alias]
+	pl = pull --rebase
+	loga = log --author
+	abv = reflog
+	br = branch
+	bd = branch -D
+	cb = checkout -b
